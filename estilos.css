@@ -1,0 +1,12 @@
+body,html{
+    height: 100px
+    margin: 0px;
+  }
+  
+.bg {
+       background-image: url(../img/artuck.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+
+}
