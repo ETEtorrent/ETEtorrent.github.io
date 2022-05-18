@@ -11,12 +11,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <tiltle>Vai sifuder Matheus</tiltle>
 <li><a href="Moon Knight.html">Moon Knight</a></li>
-<body background="img/artuck.png">
-<body {
-      background-attachment:fixed;
-      background-size:100%;
-      background-repeat:no-repeat;
+html {
+    height: 100%; /* coloque uma altura no html também */
+}
 
+body{
+    background-image: url(...img/artuck.png);
+    background-position: top center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:  cover;
+    max-width: 100%;
+    /* width: auto; romava esse width */
+    /* height: auto; não use "auto" coloque um valor de100% ou 100vh */
+    height: 100%;
+    overflow: hidden;
+    display: block;
 }
 
 <body class="bg">
